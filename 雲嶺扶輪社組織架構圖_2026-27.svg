@@ -24,7 +24,6 @@
   <!-- 理事會 -->
   <rect x="100" y="90" width="1750" height="56" rx="10" fill="#34495e"/>
   <text x="975" y="126" text-anchor="middle" font-size="22" font-weight="bold" fill="#ecf0f1">理 事 會</text>
-
   <line x1="975" y1="146" x2="975" y2="178" stroke="#8a9da8" stroke-width="2.5"/>
 
   <!-- 社長 -->
@@ -36,11 +35,9 @@
   <rect x="580" y="310" width="220" height="60" rx="10" fill="url(#offGrad)"/>
   <text x="690" y="334" text-anchor="middle" font-size="15" fill="#b0c4de">秘　書</text>
   <text x="690" y="360" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">賴贊升</text>
-
   <rect x="865" y="310" width="220" height="60" rx="10" fill="url(#offGrad)"/>
   <text x="975" y="334" text-anchor="middle" font-size="15" fill="#b0c4de">財　務</text>
   <text x="975" y="360" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">陳月姿</text>
-
   <rect x="1150" y="310" width="220" height="60" rx="10" fill="url(#offGrad)"/>
   <text x="1260" y="334" text-anchor="middle" font-size="15" fill="#b0c4de">糾　察</text>
   <text x="1260" y="360" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">陳月惠</text>
@@ -54,7 +51,6 @@
   <line x1="390" y1="410" x2="390" y2="450" stroke="#8a9da8" stroke-width="2.5"/>
   <line x1="975" y1="410" x2="975" y2="450" stroke="#8a9da8" stroke-width="2.5"/>
   <line x1="1560" y1="410" x2="1560" y2="450" stroke="#8a9da8" stroke-width="2.5"/>
-
   <line x1="690" y1="370" x2="690" y2="410" stroke="#8a9da8" stroke-width="2.5"/>
   <line x1="975" y1="370" x2="975" y2="410" stroke="#8a9da8" stroke-width="2.5"/>
   <line x1="1260" y1="370" x2="1260" y2="410" stroke="#8a9da8" stroke-width="2.5"/>
@@ -132,29 +128,32 @@
   <text x="1560" y="1045" font-size="14" fill="#888">扶輪義工｜小組長：李承豪　組員：張祐誠</text>
 
   <!-- Link to Projects -->
-  <line x1="975" y1="1100" x2="975" y2="1175" stroke="#8a9da8" stroke-width="2.5" stroke-dasharray="8,5"/>
+  <line x1="975" y1="1100" x2="975" y2="1180" stroke="#8a9da8" stroke-width="2.5" stroke-dasharray="8,5"/>
 
   <!-- ===== 年度重點計畫 ===== -->
-  <rect x="70" y="1175" width="1810" height="175" rx="10" fill="#f0f4f8" stroke="#34495e" stroke-width="2.5"/>
-  <rect x="70" y="1175" width="1810" height="44" rx="10" fill="#34495e"/>
-  <rect x="70" y="1209" width="1810" height="10" fill="#34495e"/>
-  <text x="975" y="1205" text-anchor="middle" font-size="20" font-weight="bold" fill="#fff">年 度 重 點 計 畫</text>
+  <rect x="70" y="1180" width="1810" height="175" rx="10" fill="#f0f4f8" stroke="#34495e" stroke-width="2.5"/>
+  <rect x="70" y="1180" width="1810" height="44" rx="10" fill="#34495e"/>
+  <rect x="70" y="1214" width="1810" height="10" fill="#34495e"/>
+  <text x="975" y="1210" text-anchor="middle" font-size="20" font-weight="bold" fill="#fff">年 度 重 點 計 畫</text>
 
-  <!-- Row 1 -->
-  <text x="110" y="1265" class="g">內輪會</text><text x="195" y="1265" class="r">主委</text><text x="250" y="1265" class="n">陳妍心</text><text x="340" y="1265" font-size="12" fill="#999">（陳建華夫人）</text>
-  <text x="650" y="1265" class="g">扶輪公益網</text><text x="780" y="1265" class="r">主委</text><text x="830" y="1265" class="n">章豑尹</text>
-  <text x="1060" y="1265" class="g">送 Eye 到偏鄉</text><text x="1210" y="1265" class="r">主委</text><text x="1260" y="1265" class="n">陳明杰</text>
-  <text x="1500" y="1265" class="g">麥寮識字計畫</text><text x="1645" y="1265" class="r">主委</text><text x="1695" y="1265" class="n">丁奕綺</text>
+  <!-- Grid: 4 equal columns, label at fixed x, role at fixed offset, name at fixed offset -->
+  <!-- Col 1: x=110, role at 210, name at 265 -->
+  <!-- Col 2: x=540, role at 640, name at 695 -->
+  <!-- Col 3: x=1000, role at 1150, name at 1200 (adjusted for longer labels) -->
+  <!-- Col 4: x=1470, role at 1615, name at 1665 -->
 
-  <!-- Row 2 -->
-  <text x="110" y="1306" class="g">慢飛天使</text><text x="195" y="1306" class="r">主委</text><text x="250" y="1306" class="n">賴贊升</text>
-  <text x="650" y="1306" class="g">崙背 AI 機器人</text><text x="795" y="1306" class="r">主委</text><text x="845" y="1306" class="n">廖淑媛</text>
-  <text x="1060" y="1306" class="g">扶少團</text><text x="1135" y="1306" class="r">主委</text><text x="1185" y="1306" class="n">高培書</text>
-  <text x="1500" y="1306" class="g">扶輪之子</text><text x="1605" y="1306" class="r">主委</text><text x="1655" y="1306" class="n">莊純青</text>
+  <text x="110" y="1270" class="g">內輪會</text><text x="210" y="1270" class="r">主委</text><text x="265" y="1270" class="n">陳妍心</text><text x="350" y="1270" font-size="12" fill="#999">（陳建華夫人）</text>
+  <text x="540" y="1270" class="g">扶輪公益網</text><text x="670" y="1270" class="r">主委</text><text x="725" y="1270" class="n">章豑尹</text>
+  <text x="1000" y="1270" class="g">送 Eye 到偏鄉</text><text x="1150" y="1270" class="r">主委</text><text x="1205" y="1270" class="n">陳明杰</text>
+  <text x="1470" y="1270" class="g">麥寮識字計畫</text><text x="1615" y="1270" class="r">主委</text><text x="1670" y="1270" class="n">丁奕綺</text>
 
-  <!-- Row 3 -->
-  <text x="110" y="1345" class="g">生命橋梁</text><text x="195" y="1345" class="r">主委</text><text x="250" y="1345" class="n">高培書</text>
-  <text x="650" y="1345" class="g">斗六超音波計畫</text><text x="805" y="1345" class="r">主委</text><text x="855" y="1345" class="n">陳弘耀</text>
+  <text x="110" y="1312" class="g">慢飛天使</text><text x="210" y="1312" class="r">主委</text><text x="265" y="1312" class="n">賴贊升</text>
+  <text x="540" y="1312" class="g">崙背 AI 機器人</text><text x="680" y="1312" class="r">主委</text><text x="735" y="1312" class="n">廖淑媛</text>
+  <text x="1000" y="1312" class="g">扶少團</text><text x="1075" y="1312" class="r">主委</text><text x="1125" y="1312" class="n">高培書</text>
+  <text x="1470" y="1312" class="g">扶輪之子</text><text x="1575" y="1312" class="r">主委</text><text x="1625" y="1312" class="n">莊純青</text>
+
+  <text x="110" y="1354" class="g">生命橋梁</text><text x="210" y="1354" class="r">主委</text><text x="265" y="1354" class="n">高培書</text>
+  <text x="540" y="1354" class="g">斗六超音波計畫</text><text x="695" y="1354" class="r">主委</text><text x="750" y="1354" class="n">陳弘耀</text>
 
   <!-- Footer -->
   <text x="975" y="1430" text-anchor="middle" font-size="12" fill="#aaa">雲林雲嶺扶輪社  Rotary Club of Yunlin Yunling  |  2026 - 2027</text>
