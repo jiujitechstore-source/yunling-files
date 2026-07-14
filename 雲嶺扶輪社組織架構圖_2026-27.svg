@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1450 1180" width="1450" height="1180">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1450 1120" width="1450" height="1120">
   <defs>
     <linearGradient id="presGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#0a3d62"/><stop offset="100%" stop-color="#1e6091"/>
@@ -15,47 +15,52 @@
     .n { font-size: 11px; font-weight: bold; fill: #333; }
     .r { font-size: 10px; fill: #888; }
   </style>
-  <rect width="1450" height="1180" fill="#f5f7fa"/>
+  <rect width="1450" height="1120" fill="#f5f7fa"/>
 
   <!-- Title -->
   <text x="725" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a2e">雲林雲嶺扶輪社 2026-2027 年度組織架構圖</text>
   <line x1="380" y1="52" x2="1070" y2="52" stroke="#c0c8d0" stroke-width="1"/>
 
-  <!-- President -->
-  <rect x="585" y="70" width="280" height="50" rx="8" fill="url(#presGrad)"/>
-  <text x="725" y="90" text-anchor="middle" font-size="12" fill="#a0c8ff">社　　長</text>
-  <text x="725" y="110" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">陳建華</text>
+  <!-- ===== LEVEL 1: 理事會 (TOP) ===== -->
+  <rect x="80" y="70" width="1290" height="40" rx="6" fill="#34495e"/>
+  <text x="725" y="95" text-anchor="middle" font-size="14" font-weight="bold" fill="#ecf0f1">理 事 會</text>
 
-  <!-- Officers -->
-  <rect x="425" y="155" width="160" height="42" rx="6" fill="url(#offGrad)"/>
-  <text x="505" y="173" text-anchor="middle" font-size="10" fill="#b0c4de">秘　書</text>
-  <text x="505" y="190" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">賴贊升</text>
-  <rect x="645" y="155" width="160" height="42" rx="6" fill="url(#offGrad)"/>
-  <text x="725" y="173" text-anchor="middle" font-size="10" fill="#b0c4de">財　務</text>
-  <text x="725" y="190" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">陳月姿</text>
-  <rect x="865" y="155" width="160" height="42" rx="6" fill="url(#offGrad)"/>
-  <text x="945" y="173" text-anchor="middle" font-size="10" fill="#b0c4de">糾　察</text>
-  <text x="945" y="190" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">陳月惠</text>
+  <!-- Line Board → President -->
+  <line x1="725" y1="110" x2="725" y2="135" stroke="#8a9da8" stroke-width="1.5"/>
 
-  <line x1="675" y1="120" x2="505" y2="155" stroke="#8a9da8" stroke-width="1.5"/>
-  <line x1="725" y1="120" x2="725" y2="155" stroke="#8a9da8" stroke-width="1.5"/>
-  <line x1="775" y1="120" x2="945" y2="155" stroke="#8a9da8" stroke-width="1.5"/>
+  <!-- ===== LEVEL 2: 社長 ===== -->
+  <rect x="585" y="135" width="280" height="50" rx="8" fill="url(#presGrad)"/>
+  <text x="725" y="155" text-anchor="middle" font-size="12" fill="#a0c8ff">社　　長</text>
+  <text x="725" y="175" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">陳建華</text>
 
-  <!-- Board -->
-  <rect x="80" y="235" width="1290" height="40" rx="6" fill="#34495e"/>
-  <text x="725" y="260" text-anchor="middle" font-size="14" font-weight="bold" fill="#ecf0f1">理 事 會</text>
+  <!-- ===== LEVEL 3: 三長 ===== -->
+  <rect x="425" y="225" width="160" height="42" rx="6" fill="url(#offGrad)"/>
+  <text x="505" y="243" text-anchor="middle" font-size="10" fill="#b0c4de">秘　書</text>
+  <text x="505" y="260" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">賴贊升</text>
+  <rect x="645" y="225" width="160" height="42" rx="6" fill="url(#offGrad)"/>
+  <text x="725" y="243" text-anchor="middle" font-size="10" fill="#b0c4de">財　務</text>
+  <text x="725" y="260" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">陳月姿</text>
+  <rect x="865" y="225" width="160" height="42" rx="6" fill="url(#offGrad)"/>
+  <text x="945" y="243" text-anchor="middle" font-size="10" fill="#b0c4de">糾　察</text>
+  <text x="945" y="260" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">陳月惠</text>
 
-  <line x1="505" y1="197" x2="505" y2="235" stroke="#8a9da8" stroke-width="1.5"/>
-  <line x1="725" y1="197" x2="725" y2="235" stroke="#8a9da8" stroke-width="1.5"/>
-  <line x1="945" y1="197" x2="945" y2="235" stroke="#8a9da8" stroke-width="1.5"/>
+  <!-- Lines President → Officers -->
+  <line x1="675" y1="185" x2="505" y2="225" stroke="#8a9da8" stroke-width="1.5"/>
+  <line x1="725" y1="185" x2="725" y2="225" stroke="#8a9da8" stroke-width="1.5"/>
+  <line x1="775" y1="185" x2="945" y2="225" stroke="#8a9da8" stroke-width="1.5"/>
 
-  <!-- Trunk line to committees -->
+  <!-- Trunk line → Committees -->
   <line x1="80" y1="300" x2="1370" y2="300" stroke="#8a9da8" stroke-width="2"/>
   <line x1="280" y1="300" x2="280" y2="325" stroke="#8a9da8" stroke-width="1.5"/>
   <line x1="725" y1="300" x2="725" y2="325" stroke="#8a9da8" stroke-width="1.5"/>
   <line x1="1170" y1="300" x2="1170" y2="325" stroke="#8a9da8" stroke-width="1.5"/>
 
-  <!-- ===== ROW 1 ===== -->
+  <!-- Connect officers to trunk -->
+  <line x1="505" y1="267" x2="505" y2="300" stroke="#8a9da8" stroke-width="1.5"/>
+  <line x1="725" y1="267" x2="725" y2="300" stroke="#8a9da8" stroke-width="1.5"/>
+  <line x1="945" y1="267" x2="945" y2="300" stroke="#8a9da8" stroke-width="1.5"/>
+
+  <!-- ===== LEVEL 4: 六大委員會 ROW 1 ===== -->
   <!-- 社務行政委員會 -->
   <rect x="60" y="325" width="420" height="220" rx="6" fill="#fff" stroke="#e74c3c" stroke-width="2"/>
   <rect x="60" y="325" width="420" height="34" rx="6" fill="#e74c3c"/>
@@ -90,6 +95,10 @@
   <text x="1180" y="530" text-anchor="middle" font-size="11" fill="#27ae60">主任委員：陳弘耀</text>
 
   <!-- ===== ROW 2 ===== -->
+  <line x1="280" y1="545" x2="280" y2="590" stroke="#8a9da8" stroke-width="1.5"/>
+  <line x1="725" y1="545" x2="725" y2="590" stroke="#8a9da8" stroke-width="1.5"/>
+  <line x1="1170" y1="545" x2="1170" y2="590" stroke="#8a9da8" stroke-width="1.5"/>
+
   <!-- 扶輪基金委員會 -->
   <rect x="60" y="590" width="420" height="190" rx="6" fill="#fff" stroke="#2980b9" stroke-width="2"/>
   <rect x="60" y="590" width="420" height="34" rx="6" fill="#2980b9"/>
@@ -123,51 +132,29 @@
   <text x="1180" y="715" text-anchor="middle" font-size="12" fill="#555">社學習引導人：<tspan font-weight="bold" fill="#333">廖淑媛</tspan></text>
   <text x="1145" y="742" font-size="10" fill="#888">扶輪義工｜小組長：李承豪　組員：張祐誠</text>
 
-  <!-- Link to Special Projects -->
+  <!-- Link to Projects -->
   <line x1="725" y1="780" x2="725" y2="840" stroke="#8a9da8" stroke-width="1.5" stroke-dasharray="4,3"/>
 
   <!-- ===== 年度重點計畫 ===== -->
-  <rect x="60" y="840" width="1330" height="180" rx="6" fill="#f0f4f8" stroke="#34495e" stroke-width="1.5"/>
+  <rect x="60" y="840" width="1330" height="140" rx="6" fill="#f0f4f8" stroke="#34495e" stroke-width="1.5"/>
   <rect x="60" y="840" width="1330" height="30" rx="6" fill="#34495e"/>
   <rect x="60" y="864" width="1330" height="6" fill="#34495e"/>
   <text x="725" y="861" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">年 度 重 點 計 畫</text>
 
-  <!-- Grid layout: 2 columns, 5 rows -->
-  <!-- Left column starts at x=80, Right column starts at x=740 -->
-  <!-- Col widths: Title area ~150, Name area ~100 -->
-
-  <!-- Row 1 -->
+  <!-- Grid: 4 columns x 3 rows -->
   <text x="80"  y="895" class="g">內輪會</text>          <text x="150" y="895" class="r">主委</text><text x="185" y="895" class="n">陳妍心</text><text x="260" y="895" font-size="9" fill="#999">（陳建華夫人）</text>
-  <text x="560" y="895" class="g">扶輪公益網</text>      <text x="650" y="895" class="r">主委</text><text x="685" y="895" class="n">章豑尹</text>
+  <text x="450" y="895" class="g">扶輪公益網</text>      <text x="535" y="895" class="r">主委</text><text x="570" y="895" class="n">章豑尹</text>
+  <text x="740" y="895" class="g">送 Eye 到偏鄉</text>  <text x="845" y="895" class="r">主委</text><text x="880" y="895" class="n">陳明杰</text>
+  <text x="1080" y="895" class="g">麥寮識字計畫</text>  <text x="1185" y="895" class="r">主委</text><text x="1220" y="895" class="n">丁奕綺</text>
 
-  <text x="740" y="895" class="g">送 Eye 到偏鄉</text>  <text x="850" y="895" class="r">主委</text><text x="885" y="895" class="n">陳明杰</text>
-  <text x="1100" y="895" class="g">麥寮識字計畫</text>  <text x="1205" y="895" class="r">主委</text><text x="1240" y="895" class="n">丁奕綺</text>
+  <text x="80"  y="918" class="g">慢飛天使</text>        <text x="150" y="918" class="r">主委</text><text x="185" y="918" class="n">賴贊升</text>
+  <text x="450" y="918" class="g">崙背 AI 機器人</text> <text x="555" y="918" class="r">主委</text><text x="590" y="918" class="n">廖淑媛</text>
+  <text x="740" y="918" class="g">扶少團</text>          <text x="795" y="918" class="r">主委</text><text x="825" y="918" class="n">高培書</text>
+  <text x="1080" y="918" class="g">扶輪之子</text>       <text x="1155" y="918" class="r">主委</text><text x="1190" y="918" class="n">莊純青</text>
 
-  <!-- Row 2 -->
-  <text x="80"  y="920" class="g">慢飛天使</text>        <text x="150" y="920" class="r">主委</text><text x="185" y="920" class="n">賴贊升</text>
-  <text x="560" y="920" class="g">崙背 AI 機器人</text> <text x="665" y="920" class="r">主委</text><text x="700" y="920" class="n">廖淑媛</text>
-
-  <text x="740" y="920" class="g">扶少團</text>          <text x="795" y="920" class="r">主委</text><text x="825" y="920" class="n">高培書</text>
-  <text x="1100" y="920" class="g">扶輪之子</text>       <text x="1175" y="920" class="r">主委</text><text x="1210" y="920" class="n">莊純青</text>
-
-  <!-- Row 3 -->
-  <text x="80"  y="945" class="g">生命橋梁</text>        <text x="150" y="945" class="r">主委</text><text x="185" y="945" class="n">高培書</text>
-  <text x="560" y="945" class="g">斗六超音波計畫</text>  <text x="670" y="945" class="r">主委</text><text x="705" y="945" class="n">陳弘耀</text>
-
-  <!-- Divider between left and right sub-columns -->
-  <line x1="500" y1="882" x2="500" y2="960" stroke="#dce4ec" stroke-width="1"/>
-  <line x1="1040" y1="882" x2="1040" y2="960" stroke="#dce4ec" stroke-width="1"/>
-
-  <!-- Horizontal dividers between rows -->
-  <line x1="80" y1="910" x2="500" y2="910" stroke="#e8ecf0" stroke-width="0.5"/>
-  <line x1="80" y1="935" x2="500" y2="935" stroke="#e8ecf0" stroke-width="0.5"/>
-  <line x1="560" y1="910" x2="1040" y2="910" stroke="#e8ecf0" stroke-width="0.5"/>
-  <line x1="560" y1="935" x2="1040" y2="935" stroke="#e8ecf0" stroke-width="0.5"/>
-  <line x1="740" y1="910" x2="1040" y2="910" stroke="#e8ecf0" stroke-width="0.5"/>
-  <line x1="740" y1="935" x2="1040" y2="935" stroke="#e8ecf0" stroke-width="0.5"/>
-  <line x1="1100" y1="910" x2="1370" y2="910" stroke="#e8ecf0" stroke-width="0.5"/>
-  <line x1="1100" y1="935" x2="1370" y2="935" stroke="#e8ecf0" stroke-width="0.5"/>
+  <text x="80"  y="941" class="g">生命橋梁</text>        <text x="150" y="941" class="r">主委</text><text x="185" y="941" class="n">高培書</text>
+  <text x="450" y="941" class="g">斗六超音波計畫</text>  <text x="560" y="941" class="r">主委</text><text x="595" y="941" class="n">陳弘耀</text>
 
   <!-- Footer -->
-  <text x="725" y="1080" text-anchor="middle" font-size="10" fill="#aaa">雲林雲嶺扶輪社  Rotary Club of Yunlin Yunling  |  2026 - 2027</text>
+  <text x="725" y="1030" text-anchor="middle" font-size="10" fill="#aaa">雲林雲嶺扶輪社  Rotary Club of Yunlin Yunling  |  2026 - 2027</text>
 </svg>
